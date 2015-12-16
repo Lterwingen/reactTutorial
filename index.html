@@ -1,8 +1,24 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<header>Dit is de header</header>
 
+	<section>Dit is een section</section>
+
+	<aside>Dit is een aside</aside>
+
+	<footer id="footer">En tenslotte een footer</footer>
+	<script type="text/javascript">
+		var f = document.getElementById('footer');
+
+		f.addEventListener('click',addClass)
+
+		function addClass(){
+			f.classList.add('klasse')
+		}
+	</script>
 </body>
 </html>
